@@ -25,6 +25,7 @@ body {
     "store store cart"
     "store store cart"
     "store store cart"
+    "store store cart"
     "foot foot foot"
   ;
 }
@@ -62,7 +63,7 @@ button:hover {
   grid-area: search;
   height: 100%;
   width: 100%;
-  padding: 2%;
+  padding: 2% 2% 0 2%;
   margin: auto;
   text-align: center;
   background-color: #EF959C;
@@ -86,6 +87,7 @@ button:hover {
 /* !!!!! Store section !!!!! */
 #store-container {
   grid-area: store;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -105,8 +107,8 @@ button:hover {
 }
 
 .store-item img {
-  width: 70%;
-  height: 70%;
+  width: 65%;
+  height: 65%;
   object-fit: contain;
 }
 
@@ -133,6 +135,8 @@ footer {
   text-align: center;
   background-color: #DBC7BE;
   width: 100%;
+  overflow: hidden;
+  font-size: large;
 }
 
 /* !!!!! Mobile breakpoint !!!!! */
@@ -175,8 +179,12 @@ footer {
 
   .store-item {
     width: 80%;
-    margin: 1%;
+    margin: 2%;
     font-size: larger;
+  }
+
+  #store-container:last-child {
+    margin-bottom: 30%;
   }
 
 
@@ -202,7 +210,8 @@ footer {
   footer {
     position: fixed;
     bottom: 0;
-
+    max-height: 1%;
+    font-size: smaller;
   }
 
 }
@@ -214,6 +223,11 @@ footer {
 
   #store-container {
     min-height: 80%;
+  }
+
+  footer {
+    height: 50%;
+    align-self: flex-end;
   }
 
 }
