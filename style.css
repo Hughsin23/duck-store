@@ -246,19 +246,3 @@ footer {
   }
 
 }
-
-@media only screen and (max-width: 900px) {
-  button {
-    font-size: medium;
-  }
-
-  #store-container {
-    min-height: 80%;
-  }
-
-  footer {
-    height: 50%;
-    align-self: flex-end;
-  }
-
-}
