@@ -1,14 +1,13 @@
 # The Ducks on Jumpers Store
 
 This is a store that sells jumpers with ducks on them.
-You can visit the store [here](https://l-torrens.github.io/duck-store/)
+You can visit the store [here!](https://l-torrens.github.io/duck-store/)
 
 ```bash
 Website completed with basic HTML and CSS. Needing to add JS.
 ```
 ## Wire Frames
 
- 
 Desktop view
 --------
 ![Screenshot of desktop view wire frame](Wire%20Frame%20(Laptop).png)
@@ -16,12 +15,6 @@ Desktop view
 Mobile view
 ---------
 ![Screenshot of mobile breakpoint wire frame](Wire%20Frame%20(Mobile).png)
-
-
-
-## Website
-
-
 
 ## Support
 0412 345 678
